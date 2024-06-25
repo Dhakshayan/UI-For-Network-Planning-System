@@ -17,7 +17,7 @@ const toggleThemeBtn = document.getElementById('toggleTheme');
               Math.floor(Math.random() * 20) + 1,
               Math.floor(Math.random() * 20) + 1
             ],
-            borderColor: 'rgba(0, 255, 0, 1)', // Neon green
+            borderColor: 'rgba(0, 255, 0, 1)',
             borderWidth: 2,
             fill: false
           },
@@ -29,7 +29,7 @@ const toggleThemeBtn = document.getElementById('toggleTheme');
               Math.floor(Math.random() * 20) + 1,
               Math.floor(Math.random() * 20) + 1
             ],
-            borderColor: 'rgba(255, 0, 255, 1)', // Neon pink
+            borderColor: 'rgba(255, 0, 255, 1)',
             borderWidth: 2,
             fill: false
           }
