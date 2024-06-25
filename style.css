@@ -1,0 +1,156 @@
+.light-mode {
+  background-color: #fff;
+  color: #008080;
+}
+.light-mode .header,
+.light-mode .nav,
+.light-mode .main,
+.light-mode .footer,
+.light-mode h1,
+.light-mode h2,
+.light-mode p {
+  background-color: #fff;
+  color: #008080;
+  border-color: #008080;
+}
+.light-mode .nav a,
+.light-mode .content button {
+  color: #fff;
+  background-color: #008080;
+}
+.light-mode .nav a:hover,
+.light-mode .content button:hover {
+  background-color: #004d4d;
+}
+.light-mode .content select,
+.light-mode .content table {
+  border-color: #008080;
+}
+.light-mode .content th,
+.light-mode .content td {
+  border-bottom: 1px solid #008080;
+}
+.light-mode .content table {
+  background-color: #fff;
+}
+.light-mode .content {
+  background-color: #fff;
+  color: #008080;
+}
+.light-mode .header h1 {
+  color: #008080;
+}
+.light-mode .content select {
+  color: #008080;
+}
+.light-mode .content h2 {
+  color: #008080;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #0af;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+}
+.header,
+.nav,
+.main,
+.footer {
+    padding: 20px;
+    background-color: #333;
+    border: 2px solid #0af;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3), inset 0 0 5px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.header {
+    text-align: center;
+}
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+    color: #0af;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav li {
+    margin-right: 20px;
+    flex: 1 1 auto;
+}
+.nav a {
+    text-decoration: none;
+    color: #0af;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #444;
+    border: 1px solid #0af;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    display: block;
+    text-align: center;
+}
+.nav a:hover {
+    background-color: #555;
+}
+.content {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+}
+.content h2 {
+    margin-bottom: 10px;
+    color: #0af;
+}
+.content select,
+.content table {
+    border: 2px solid #0af;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    width: 100%;
+}
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #444;
+}
+.content th,
+.content td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #0af;
+}
+.content button {
+    background-color: #0af;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    width: 100%;
+}
+.content button:hover {
+    background-color: #08c;
+}
+.footer {
+    text-align: center;
+    padding-top: 10px;
+}
+.footer p {
+    margin: 0;
+    color: #0af;
+}

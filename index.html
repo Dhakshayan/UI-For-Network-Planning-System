@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Network Planning System</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1>NETWORK PLANNING SYSTEM (NPS)</h1>
+  </header>
+  <nav class="nav">
+    <ul>
+      <li><a href="#">Network Plan</a></li>
+      <li><a href="#">Demand Flow</a></li>
+      <li><a href="#">Performance Report</a></li>
+      <li><a href="#" class="btn" id="toggleTheme" role="button">Light/Dark Mode</a></li>
+    </ul>
+  </nav>
+  <main class="main">
+    <div class="content">
+      <div style="display: flex; justify-content: space-between;">
+        <div>
+          <h2>Vendor</h2>
+          <select name="vendor">
+            <option value="">Select a Vendor</option>
+            <option value="vendor1">Vendor 1</option>
+            <option value="vendor2">Vendor 2</option>
+          </select>
+          <h2>Family Code</h2>
+          <select name="family_code">
+            <option value="">Select a Family Code</option>
+            <option value="code1">Code 1</option>
+            <option value="code2">Code 2</option>
+          </select>
+          <h2>Site</h2>
+          <select name="site">
+            <option value="">Select a Site</option>
+            <option value="site1">Site 1</option>
+            <option value="site2">Site 2</option>
+          </select>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Source</th>
+              <th>Destination</th>
+              <th>Week Date</th>
+              <th>Quantity</th>
+              <th>SKU's Count</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>London</td>
+              <td>New York</td>
+              <td>2023-10-01</td>
+              <td><script>document.write(Math.floor(Math.random() * 20) + 1);</script></td>
+              <td><script>document.write(Math.floor(Math.random() * 20) + 1);</script></td>
+            </tr>
+            <tr>
+              <td>Paris</td>
+              <td>Tokyo</td>
+              <td>2023-10-08</td>
+              <td><script>document.write(Math.floor(Math.random() * 20) + 1);</script></td>
+              <td><script>document.write(Math.floor(Math.random() * 20) + 1);</script></td>
+            </tr>
+            <tr>
+              <td>Sydney</td>
+              <td>Cape Town</td>
+              <td>2023-10-15</td>
+              <td><script>document.write(Math.floor(Math.random() * 20) + 1);</script></td>
+              <td><script>document.write(Math.floor(Math.random() * 20) + 1);</script></td>
+            </tr>
+            <tr>
+              <td>Moscow</td>
+              <td>Rio de Janeiro</td>
+              <td>2023-10-22</td>
+              <td><script>document.write(Math.floor(Math.random() * 20) + 1);</script></td>
+              <td><script>document.write(Math.floor(Math.random() * 20) + 1);</script></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <canvas id="lineChart" width="400" height="200"></canvas>
+      <div style="display: flex; width: 100%;">
+        <button class="btn download-btn" style="flex: 1;">Download</button>
+        <button class="btn generate-btn" style="flex: 1;">Generate SAP Files</button>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2024 Network Planning System</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
